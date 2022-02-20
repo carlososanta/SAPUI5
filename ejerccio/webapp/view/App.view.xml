@@ -1,0 +1,10 @@
+<mvc:View
+    controllerName="logaligroup.ejercicio.controller.App"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+    <Button text="{i18n>Saludar}" press=".onShowHello"></Button>
+    <Input value="{/recipient/name}"
+           description="Hola {/recipient/name}"
+           width="60%"
+           valueLiveUpdate="true"></Input>    
+</mvc:View>
